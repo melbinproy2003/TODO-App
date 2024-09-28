@@ -1,0 +1,979 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "generics",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultTask",
+        "importPath": "TODO.models",
+        "description": "TODO.models",
+        "isExtraImport": true,
+        "detail": "TODO.models",
+        "documentation": {}
+    },
+    {
+        "label": "Task",
+        "importPath": "TODO.models",
+        "description": "TODO.models",
+        "isExtraImport": true,
+        "detail": "TODO.models",
+        "documentation": {}
+    },
+    {
+        "label": "TaskList",
+        "importPath": "TODO.models",
+        "description": "TODO.models",
+        "isExtraImport": true,
+        "detail": "TODO.models",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultTask",
+        "importPath": "TODO.models",
+        "description": "TODO.models",
+        "isExtraImport": true,
+        "detail": "TODO.models",
+        "documentation": {}
+    },
+    {
+        "label": "TaskList",
+        "importPath": "TODO.models",
+        "description": "TODO.models",
+        "isExtraImport": true,
+        "detail": "TODO.models",
+        "documentation": {}
+    },
+    {
+        "label": "Task",
+        "importPath": "TODO.models",
+        "description": "TODO.models",
+        "isExtraImport": true,
+        "detail": "TODO.models",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultTask",
+        "importPath": "TODO.models",
+        "description": "TODO.models",
+        "isExtraImport": true,
+        "detail": "TODO.models",
+        "documentation": {}
+    },
+    {
+        "label": "TaskList",
+        "importPath": "TODO.models",
+        "description": "TODO.models",
+        "isExtraImport": true,
+        "detail": "TODO.models",
+        "documentation": {}
+    },
+    {
+        "label": "Task",
+        "importPath": "TODO.models",
+        "description": "TODO.models",
+        "isExtraImport": true,
+        "detail": "TODO.models",
+        "documentation": {}
+    },
+    {
+        "label": "Token",
+        "importPath": "rest_framework.authtoken.models",
+        "description": "rest_framework.authtoken.models",
+        "isExtraImport": true,
+        "detail": "rest_framework.authtoken.models",
+        "documentation": {}
+    },
+    {
+        "label": "Token",
+        "importPath": "rest_framework.authtoken.models",
+        "description": "rest_framework.authtoken.models",
+        "isExtraImport": true,
+        "detail": "rest_framework.authtoken.models",
+        "documentation": {}
+    },
+    {
+        "label": "APITestCase",
+        "importPath": "rest_framework.test",
+        "description": "rest_framework.test",
+        "isExtraImport": true,
+        "detail": "rest_framework.test",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "AllowAny",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAuthenticated",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "Project.asgi",
+        "description": "Project.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "Project.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "Project.settings",
+        "description": "Project.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-a256+g++@b6+r62!p0$6!l^klz2%7wk$m_^g(^&my$nb$i_oo#'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "Project.settings",
+        "description": "Project.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-a256+g++@b6+r62!p0$6!l^klz2%7wk$m_^g(^&my$nb$i_oo#'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "Project.settings",
+        "description": "Project.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "Project.settings",
+        "description": "Project.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework', ",
+        "detail": "Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "Project.settings",
+        "description": "Project.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework', \n    'rest_framework.authtoken',\n    'corsheaders',          ",
+        "detail": "Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "Project.settings",
+        "description": "Project.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'corsheaders.middleware.CorsMiddleware', \n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]",
+        "detail": "Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "Project.settings",
+        "description": "Project.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    'DEFAULT_AUTHENTICATION_CLASSES': [\n        'rest_framework.authentication.TokenAuthentication',\n    ],\n    'DEFAULT_PERMISSION_CLASSES': [\n        'rest_framework.permissions.IsAuthenticated',\n    ],\n}\nCORS_ALLOWED_ORIGINS = [\n    'http://localhost:3000',  # React frontend",
+        "detail": "Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOWED_ORIGINS",
+        "kind": 5,
+        "importPath": "Project.settings",
+        "description": "Project.settings",
+        "peekOfCode": "CORS_ALLOWED_ORIGINS = [\n    'http://localhost:3000',  # React frontend\n]\nROOT_URLCONF = 'Project.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {",
+        "detail": "Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "Project.settings",
+        "description": "Project.settings",
+        "peekOfCode": "ROOT_URLCONF = 'Project.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "Project.settings",
+        "description": "Project.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "Project.settings",
+        "description": "Project.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'Project.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "Project.settings",
+        "description": "Project.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "Project.settings",
+        "description": "Project.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "Project.settings",
+        "description": "Project.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = '/static/'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Default primary key field type",
+        "detail": "Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "Project.settings",
+        "description": "Project.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = '/static/'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field",
+        "detail": "Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "Project.settings",
+        "description": "Project.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = '/static/'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "Project.settings",
+        "description": "Project.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = '/static/'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "Project.settings",
+        "description": "Project.settings",
+        "peekOfCode": "STATIC_URL = '/static/'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "Project.settings",
+        "description": "Project.settings",
+        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "Project.settings",
+        "description": "Project.settings",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "Project.settings",
+        "description": "Project.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "Project.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "Project.urls",
+        "description": "Project.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('api/user/',include('TODO.urls')),\n]\nif settings.DEBUG:\n    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "detail": "Project.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "Project.wsgi",
+        "description": "Project.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "Project.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "TODO.migrations.0001_initial",
+        "description": "TODO.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='DefaultTask',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "TODO.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "TODO.migrations.0002_remove_tasklist_complete_tasklist_cdate",
+        "description": "TODO.migrations.0002_remove_tasklist_complete_tasklist_cdate",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('TODO', '0001_initial'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='tasklist',\n            name='complete',\n        ),\n        migrations.AddField(",
+        "detail": "TODO.migrations.0002_remove_tasklist_complete_tasklist_cdate",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "TODO.migrations.0003_task_cdate",
+        "description": "TODO.migrations.0003_task_cdate",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('TODO', '0002_remove_tasklist_complete_tasklist_cdate'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='task',\n            name='cdate',\n            field=models.DateField(default=django.utils.timezone.now),\n        ),",
+        "detail": "TODO.migrations.0003_task_cdate",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "TODO.migrations.0004_remove_tasklist_description",
+        "description": "TODO.migrations.0004_remove_tasklist_description",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('TODO', '0003_task_cdate'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='tasklist',\n            name='description',\n        ),\n    ]",
+        "detail": "TODO.migrations.0004_remove_tasklist_description",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "TODO.migrations.0005_alter_tasklist_cdate",
+        "description": "TODO.migrations.0005_alter_tasklist_cdate",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('TODO', '0004_remove_tasklist_description'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='tasklist',\n            name='cdate',\n            field=models.DateTimeField(default=django.utils.timezone.now),\n        ),",
+        "detail": "TODO.migrations.0005_alter_tasklist_cdate",
+        "documentation": {}
+    },
+    {
+        "label": "TaskListAdmin",
+        "kind": 6,
+        "importPath": "TODO.admin",
+        "description": "TODO.admin",
+        "peekOfCode": "class TaskListAdmin(admin.ModelAdmin):\n    list_display = ('taskname', 'pin', 'userid', 'cdate')\n    search_fields = ('taskname', 'description')\n    list_filter = ('pin', 'cdate', 'userid')\n    ordering = ('taskname',)\n@admin.register(Task)\nclass TaskAdmin(admin.ModelAdmin):\n    list_display = ('description', 'due_date', 'task_list','cdate', 'complete')\n    search_fields = ('description',)\n    list_filter = ('complete', 'task_list')",
+        "detail": "TODO.admin",
+        "documentation": {}
+    },
+    {
+        "label": "TaskAdmin",
+        "kind": 6,
+        "importPath": "TODO.admin",
+        "description": "TODO.admin",
+        "peekOfCode": "class TaskAdmin(admin.ModelAdmin):\n    list_display = ('description', 'due_date', 'task_list','cdate', 'complete')\n    search_fields = ('description',)\n    list_filter = ('complete', 'task_list')\n    ordering = ('due_date',)\n@admin.register(DefaultTask)\nclass DefaultTaskAdmin(admin.ModelAdmin):\n    list_display = ('description', 'due_date', 'pin', 'complete', 'userid')\n    search_fields = ('description',)\n    list_filter = ('pin', 'complete', 'userid')",
+        "detail": "TODO.admin",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultTaskAdmin",
+        "kind": 6,
+        "importPath": "TODO.admin",
+        "description": "TODO.admin",
+        "peekOfCode": "class DefaultTaskAdmin(admin.ModelAdmin):\n    list_display = ('description', 'due_date', 'pin', 'complete', 'userid')\n    search_fields = ('description',)\n    list_filter = ('pin', 'complete', 'userid')\n    ordering = ('due_date',)",
+        "detail": "TODO.admin",
+        "documentation": {}
+    },
+    {
+        "label": "TodoConfig",
+        "kind": 6,
+        "importPath": "TODO.apps",
+        "description": "TODO.apps",
+        "peekOfCode": "class TodoConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'TODO'",
+        "detail": "TODO.apps",
+        "documentation": {}
+    },
+    {
+        "label": "TaskList",
+        "kind": 6,
+        "importPath": "TODO.models",
+        "description": "TODO.models",
+        "peekOfCode": "class TaskList(models.Model):\n    taskname = models.CharField(max_length=50)\n    pin = models.BooleanField(default=False)\n    userid = models.ForeignKey(User, on_delete=models.CASCADE)\n    cdate = models.DateTimeField(default=timezone.now)\n    def __str__(self):\n        return self.taskname\nclass Task(models.Model):\n    description = models.TextField()\n    due_date = models.DateTimeField(blank=True)",
+        "detail": "TODO.models",
+        "documentation": {}
+    },
+    {
+        "label": "Task",
+        "kind": 6,
+        "importPath": "TODO.models",
+        "description": "TODO.models",
+        "peekOfCode": "class Task(models.Model):\n    description = models.TextField()\n    due_date = models.DateTimeField(blank=True)\n    task_list = models.ForeignKey(TaskList, on_delete=models.CASCADE, blank=True, related_name='tasks')\n    cdate = models.DateField(default=timezone.now)\n    complete = models.BooleanField(default=False)\n    def __str__(self):\n        return self.description\nclass DefaultTask(models.Model):\n    description = models.TextField()",
+        "detail": "TODO.models",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultTask",
+        "kind": 6,
+        "importPath": "TODO.models",
+        "description": "TODO.models",
+        "peekOfCode": "class DefaultTask(models.Model):\n    description = models.TextField()\n    due_date = models.DateTimeField(blank=True)\n    pin = models.BooleanField(default=False)\n    complete = models.BooleanField(default=False)\n    userid = models.ForeignKey(User, on_delete=models.CASCADE)\n    def __str__(self):\n        return self.description",
+        "detail": "TODO.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserRegistrationSerializer",
+        "kind": 6,
+        "importPath": "TODO.serializers",
+        "description": "TODO.serializers",
+        "peekOfCode": "class UserRegistrationSerializer(serializers.ModelSerializer):\n    password = serializers.CharField(write_only=True, required=True, style={'input_type': 'password'})\n    confirmpassword = serializers.CharField(write_only=True, required=True, style={'input_type': 'password'}, label=\"Confirm password\")\n    email = serializers.EmailField(required=True)\n    class Meta:\n        model = User\n        fields = ['username', 'email', 'password', 'confirmpassword']\n    def validate(self, attrs):\n        if attrs['password'] != attrs['confirmpassword']:\n            raise serializers.ValidationError({\"password\": \"Password fields didn't match.\"})",
+        "detail": "TODO.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "TaskListSerializer",
+        "kind": 6,
+        "importPath": "TODO.serializers",
+        "description": "TODO.serializers",
+        "peekOfCode": "class TaskListSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = TaskList\n        fields = ['id', 'taskname', 'pin','cdate']\nclass TaskSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Task\n        fields = '__all__'\nclass DefaultTaskSerializer(serializers.ModelSerializer):\n    class Meta:",
+        "detail": "TODO.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "TaskSerializer",
+        "kind": 6,
+        "importPath": "TODO.serializers",
+        "description": "TODO.serializers",
+        "peekOfCode": "class TaskSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Task\n        fields = '__all__'\nclass DefaultTaskSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = DefaultTask\n        fields = ['id', 'description', 'due_date', 'pin', 'complete']",
+        "detail": "TODO.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultTaskSerializer",
+        "kind": 6,
+        "importPath": "TODO.serializers",
+        "description": "TODO.serializers",
+        "peekOfCode": "class DefaultTaskSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = DefaultTask\n        fields = ['id', 'description', 'due_date', 'pin', 'complete']",
+        "detail": "TODO.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "UserTests",
+        "kind": 6,
+        "importPath": "TODO.tests",
+        "description": "TODO.tests",
+        "peekOfCode": "class UserTests(APITestCase):\n    def setUp(self):\n        self.user_data = {\n            'username': 'testuser',\n            'password': 'testpassword',\n            'email': 'test@example.com'\n        }\n        self.user = User.objects.create_user(**self.user_data)\n        self.token = Token.objects.create(user=self.user)\n    def test_register_user(self):",
+        "detail": "TODO.tests",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultTaskTests",
+        "kind": 6,
+        "importPath": "TODO.tests",
+        "description": "TODO.tests",
+        "peekOfCode": "class DefaultTaskTests(APITestCase):\n    def setUp(self):\n        self.user_data = {\n            'username': 'testuser',\n            'password': 'testpassword'\n        }\n        self.user = User.objects.create_user(**self.user_data)\n        self.token = Token.objects.create(user=self.user)\n        self.client.credentials(HTTP_AUTHORIZATION='Token ' + self.token.key)\n        self.default_task_data = {",
+        "detail": "TODO.tests",
+        "documentation": {}
+    },
+    {
+        "label": "TaskListTests",
+        "kind": 6,
+        "importPath": "TODO.tests",
+        "description": "TODO.tests",
+        "peekOfCode": "class TaskListTests(APITestCase):\n    def setUp(self):\n        self.user_data = {\n            'username': 'testuser',\n            'password': 'testpassword'\n        }\n        self.user = User.objects.create_user(**self.user_data)\n        self.token = Token.objects.create(user=self.user)\n        self.client.credentials(HTTP_AUTHORIZATION='Token ' + self.token.key)\n        self.task_list_data = {",
+        "detail": "TODO.tests",
+        "documentation": {}
+    },
+    {
+        "label": "TaskTests",
+        "kind": 6,
+        "importPath": "TODO.tests",
+        "description": "TODO.tests",
+        "peekOfCode": "class TaskTests(APITestCase):\n    def setUp(self):\n        self.user_data = {\n            'username': 'testuser',\n            'password': 'testpassword'\n        }\n        self.user = User.objects.create_user(**self.user_data)\n        self.token = Token.objects.create(user=self.user)\n        self.client.credentials(HTTP_AUTHORIZATION='Token ' + self.token.key)\n        self.task_list = TaskList.objects.create(userid=self.user, title='Test Task List')",
+        "detail": "TODO.tests",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "TODO.urls",
+        "description": "TODO.urls",
+        "peekOfCode": "urlpatterns = [\n    path('register/', views.RegisterUserView.as_view(), name='register'),\n    path('login/', views.LoginUserView.as_view(), name='login'),\n    path('profile/', views.UserProfileView.as_view(), name='profile'),\n    path('DefaultTask/', views.DefaultTaskListView.as_view(), name='DefaultTaskList'),\n    path('DefaultTask/add/', views.DefaultTaskCreateView.as_view(), name='DefaultTaskCreate'),\n    path('DefaultTask/<int:pk>/update/', views.DefaultTaskUpdateView.as_view(), name='DefaultTaskUpdate'),\n    path('DefaultTask/<int:pk>/delete/', views.DefaultTaskDeleteView.as_view(), name='DefaultTaskDelete'),\n    path('TaskList/', views.TaskListListView.as_view(), name='TaskListList'),\n    path('TaskList/add/', views.TaskListCreateView.as_view(), name='TaskListCreate'),",
+        "detail": "TODO.urls",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterUserView",
+        "kind": 6,
+        "importPath": "TODO.views",
+        "description": "TODO.views",
+        "peekOfCode": "class RegisterUserView(APIView):\n    permission_classes = [AllowAny]\n    def post(self, request):\n        serializer = UserRegistrationSerializer(data=request.data)\n        if serializer.is_valid():\n            user = serializer.save()\n            token, _ = Token.objects.get_or_create(user=user)\n            return Response({'token': token.key}, status=status.HTTP_201_CREATED)\n        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)\nclass LoginUserView(APIView):",
+        "detail": "TODO.views",
+        "documentation": {}
+    },
+    {
+        "label": "LoginUserView",
+        "kind": 6,
+        "importPath": "TODO.views",
+        "description": "TODO.views",
+        "peekOfCode": "class LoginUserView(APIView):\n    permission_classes = [AllowAny]\n    def post(self, request):\n        username = request.data.get('username')\n        password = request.data.get('password')\n        user = authenticate(username=username, password=password)\n        if user is not None:\n            token, _ = Token.objects.get_or_create(user=user)\n            return Response({'token': token.key}, status=status.HTTP_200_OK)\n        return Response({'error': 'Invalid Credentials'}, status=status.HTTP_400_BAD_REQUEST)",
+        "detail": "TODO.views",
+        "documentation": {}
+    },
+    {
+        "label": "UserProfileView",
+        "kind": 6,
+        "importPath": "TODO.views",
+        "description": "TODO.views",
+        "peekOfCode": "class UserProfileView(APIView):\n    permission_classes = [IsAuthenticated]\n    def get(self, request):\n        user = request.user\n        return Response({\n            'id': user.id,\n            'username': user.username\n        })\n# DefaultTask views\nclass DefaultTaskCreateView(generics.CreateAPIView):",
+        "detail": "TODO.views",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultTaskCreateView",
+        "kind": 6,
+        "importPath": "TODO.views",
+        "description": "TODO.views",
+        "peekOfCode": "class DefaultTaskCreateView(generics.CreateAPIView):\n    queryset = DefaultTask.objects.all()\n    serializer_class = DefaultTaskSerializer\n    def perform_create(self, serializer):\n        serializer.save(userid=self.request.user)\nclass DefaultTaskListView(generics.ListAPIView):\n    serializer_class = DefaultTaskSerializer\n    def get_queryset(self):\n        return DefaultTask.objects.filter(userid=self.request.user)\n    def list(self, request, *args, **kwargs):",
+        "detail": "TODO.views",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultTaskListView",
+        "kind": 6,
+        "importPath": "TODO.views",
+        "description": "TODO.views",
+        "peekOfCode": "class DefaultTaskListView(generics.ListAPIView):\n    serializer_class = DefaultTaskSerializer\n    def get_queryset(self):\n        return DefaultTask.objects.filter(userid=self.request.user)\n    def list(self, request, *args, **kwargs):\n        queryset = self.get_queryset()\n        if not queryset.exists():  # Check if queryset is empty\n            return Response({\"message\": \"No data\"}, status=status.HTTP_204_NO_CONTENT)\n        serializer = self.get_serializer(queryset, many=True)\n        return Response(serializer.data)",
+        "detail": "TODO.views",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultTaskUpdateView",
+        "kind": 6,
+        "importPath": "TODO.views",
+        "description": "TODO.views",
+        "peekOfCode": "class DefaultTaskUpdateView(generics.UpdateAPIView):\n    queryset = DefaultTask.objects.all()\n    serializer_class = DefaultTaskSerializer\n    def get_queryset(self):\n        return DefaultTask.objects.filter(userid=self.request.user)\nclass DefaultTaskDeleteView(generics.DestroyAPIView):\n    queryset = DefaultTask.objects.all()\n    serializer_class = DefaultTaskSerializer\n    def get_queryset(self):\n        return DefaultTask.objects.filter(userid=self.request.user)",
+        "detail": "TODO.views",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultTaskDeleteView",
+        "kind": 6,
+        "importPath": "TODO.views",
+        "description": "TODO.views",
+        "peekOfCode": "class DefaultTaskDeleteView(generics.DestroyAPIView):\n    queryset = DefaultTask.objects.all()\n    serializer_class = DefaultTaskSerializer\n    def get_queryset(self):\n        return DefaultTask.objects.filter(userid=self.request.user)\n# TaskList views\nclass TaskListCreateView(generics.CreateAPIView):\n    queryset = TaskList.objects.all()\n    serializer_class = TaskListSerializer\n    def perform_create(self, serializer):",
+        "detail": "TODO.views",
+        "documentation": {}
+    },
+    {
+        "label": "TaskListCreateView",
+        "kind": 6,
+        "importPath": "TODO.views",
+        "description": "TODO.views",
+        "peekOfCode": "class TaskListCreateView(generics.CreateAPIView):\n    queryset = TaskList.objects.all()\n    serializer_class = TaskListSerializer\n    def perform_create(self, serializer):\n        serializer.save(userid=self.request.user)\nclass TaskListListView(generics.ListAPIView):\n    serializer_class = TaskListSerializer\n    def get_queryset(self):\n        return TaskList.objects.filter(userid=self.request.user)\n    def list(self, request, *args, **kwargs):",
+        "detail": "TODO.views",
+        "documentation": {}
+    },
+    {
+        "label": "TaskListListView",
+        "kind": 6,
+        "importPath": "TODO.views",
+        "description": "TODO.views",
+        "peekOfCode": "class TaskListListView(generics.ListAPIView):\n    serializer_class = TaskListSerializer\n    def get_queryset(self):\n        return TaskList.objects.filter(userid=self.request.user)\n    def list(self, request, *args, **kwargs):\n        queryset = self.get_queryset()\n        if not queryset.exists():  # Check if queryset is empty\n            return Response({\"message\": \"No data\"}, status=status.HTTP_204_NO_CONTENT)\n        serializer = self.get_serializer(queryset, many=True)\n        return Response(serializer.data)",
+        "detail": "TODO.views",
+        "documentation": {}
+    },
+    {
+        "label": "TaskListUpdateView",
+        "kind": 6,
+        "importPath": "TODO.views",
+        "description": "TODO.views",
+        "peekOfCode": "class TaskListUpdateView(generics.UpdateAPIView):\n    queryset = TaskList.objects.all()\n    serializer_class = TaskListSerializer\n    def get_queryset(self):\n        return TaskList.objects.filter(userid=self.request.user)\nclass TaskListDeleteView(generics.DestroyAPIView):\n    queryset = TaskList.objects.all()\n    serializer_class = TaskListSerializer\n    def get_queryset(self):\n        return TaskList.objects.filter(userid=self.request.user)",
+        "detail": "TODO.views",
+        "documentation": {}
+    },
+    {
+        "label": "TaskListDeleteView",
+        "kind": 6,
+        "importPath": "TODO.views",
+        "description": "TODO.views",
+        "peekOfCode": "class TaskListDeleteView(generics.DestroyAPIView):\n    queryset = TaskList.objects.all()\n    serializer_class = TaskListSerializer\n    def get_queryset(self):\n        return TaskList.objects.filter(userid=self.request.user)\n# Task views\nclass TaskCreateView(generics.CreateAPIView):\n    queryset = Task.objects.all()\n    serializer_class = TaskSerializer\nclass TaskListView(generics.ListAPIView):",
+        "detail": "TODO.views",
+        "documentation": {}
+    },
+    {
+        "label": "TaskCreateView",
+        "kind": 6,
+        "importPath": "TODO.views",
+        "description": "TODO.views",
+        "peekOfCode": "class TaskCreateView(generics.CreateAPIView):\n    queryset = Task.objects.all()\n    serializer_class = TaskSerializer\nclass TaskListView(generics.ListAPIView):\n    serializer_class = TaskSerializer\n    def get_queryset(self):\n        task_list_id = self.kwargs.get('pk')  # Get the pk from the URL\n        if task_list_id is None:  # Check if pk is undefined\n            return Response({\"message\": \"No data\"}, status=status.HTTP_204_NO_CONTENT)\n        return Task.objects.filter(task_list__id=task_list_id)  # Filter tasks by task_list id",
+        "detail": "TODO.views",
+        "documentation": {}
+    },
+    {
+        "label": "TaskListView",
+        "kind": 6,
+        "importPath": "TODO.views",
+        "description": "TODO.views",
+        "peekOfCode": "class TaskListView(generics.ListAPIView):\n    serializer_class = TaskSerializer\n    def get_queryset(self):\n        task_list_id = self.kwargs.get('pk')  # Get the pk from the URL\n        if task_list_id is None:  # Check if pk is undefined\n            return Response({\"message\": \"No data\"}, status=status.HTTP_204_NO_CONTENT)\n        return Task.objects.filter(task_list__id=task_list_id)  # Filter tasks by task_list id\n    def list(self, request, *args, **kwargs):\n        queryset = self.get_queryset()\n        if not queryset.exists():  # Check if there are any tasks",
+        "detail": "TODO.views",
+        "documentation": {}
+    },
+    {
+        "label": "TaskUpdateView",
+        "kind": 6,
+        "importPath": "TODO.views",
+        "description": "TODO.views",
+        "peekOfCode": "class TaskUpdateView(generics.UpdateAPIView):\n    queryset = Task.objects.all()\n    serializer_class = TaskSerializer\nclass TaskDeleteView(generics.DestroyAPIView):\n    queryset = Task.objects.all()\n    serializer_class = TaskSerializer",
+        "detail": "TODO.views",
+        "documentation": {}
+    },
+    {
+        "label": "TaskDeleteView",
+        "kind": 6,
+        "importPath": "TODO.views",
+        "description": "TODO.views",
+        "peekOfCode": "class TaskDeleteView(generics.DestroyAPIView):\n    queryset = Task.objects.all()\n    serializer_class = TaskSerializer",
+        "detail": "TODO.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Project.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
