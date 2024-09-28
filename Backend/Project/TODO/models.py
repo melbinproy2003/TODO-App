@@ -14,9 +14,9 @@ class TaskList(models.Model):
 
 class Task(models.Model):
     description = models.TextField()
-    due_date = models.DateTimeField(blank=True)
+    due_date = models.DateField(blank=True)
     task_list = models.ForeignKey(TaskList, on_delete=models.CASCADE, blank=True, related_name='tasks')
-    cdate = models.DateField(default=timezone.now)
+    cdate = models.DateTimeField(default=timezone.now)
     complete = models.BooleanField(default=False)
 
     def __str__(self):

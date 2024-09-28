@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import axiosInstance from '../utils/AxiosInstance';
 import './Login.css';
 
 const Login = () => {
@@ -18,11 +17,24 @@ const Login = () => {
         };
 
         try {
-            const response = await axiosInstance.post('login/', loginData);
-            localStorage.setItem('token', response.data.token);
+            const response = await fetch('http://localhost:8000/api/user/login/', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(loginData),
+            });
+
+            if (!response.ok) {
+                const errorData = await response.json();
+                throw new Error(errorData.error || 'Login failed.');
+            }
+
+            const data = await response.json();
+            localStorage.setItem('token', data.token);
             navigate('/dashboard');
         } catch (err) {
-            setError(err.response?.data?.error || 'Login failed.');
+            setError(err.message);
         }
     };
 

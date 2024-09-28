@@ -8,15 +8,15 @@ from TODO.models import DefaultTask, TaskList, Task
 from .serializers import UserRegistrationSerializer, TaskListSerializer, TaskSerializer, DefaultTaskSerializer
 from django.contrib.auth.models import User
 
-class RegisterUserView(APIView):
-    permission_classes = [AllowAny]
+class RegisterUserView(generics.CreateAPIView):
+    serializer_class = UserRegistrationSerializer
+    permission_classes = [AllowAny] 
 
-    def post(self, request):
-        serializer = UserRegistrationSerializer(data=request.data)
+    def post(self, request, *args, **kwargs):
+        serializer = self.get_serializer(data=request.data)
         if serializer.is_valid():
             user = serializer.save()
-            token, _ = Token.objects.get_or_create(user=user)
-            return Response({'token': token.key}, status=status.HTTP_201_CREATED)
+            return Response({"message": "User registered successfully."}, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 class LoginUserView(APIView):

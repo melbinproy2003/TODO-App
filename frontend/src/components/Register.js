@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import axiosInstance from '../utils/AxiosInstance';  // Import axiosInstance
-import './Login.css';  // Using the same CSS file for both login and registration
+import './Login.css'; // Using the same CSS file for both login and registration
 
 const Registration = () => {
     const [username, setUsername] = useState('');
@@ -22,19 +21,27 @@ const Registration = () => {
         }
 
         try {
-            const response = await axiosInstance.post('register/', {
-                username,
-                email,
-                password
+            const response = await fetch('http://localhost:8000/api/user/register/', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    username,
+                    email,
+                    password,
+                    confirmpassword
+                }),
             });
 
-            if (response.status === 201) {
+            if (response.ok) {
                 navigate('/');
             } else {
-                setError("Registration failed. Please try again.");
+                const errorData = await response.json();
+                setError(errorData.error || "Registration failed. Please try again.");
             }
         } catch (err) {
-            setError(err.response?.data?.error || 'Something went wrong. Please try again.');
+            setError('Something went wrong. Please try again.');
         }
     };
 
@@ -82,7 +89,7 @@ const Registration = () => {
                 <button type="submit" className="login-button">Sign Up</button>
             </form>
             <p className="register-prompt">
-                Do you have account? <a href="/">Login</a>
+                Do you have an account? <a href="/">Login</a>
             </p>
         </div>
     );

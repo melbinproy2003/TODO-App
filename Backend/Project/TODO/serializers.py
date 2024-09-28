@@ -1,6 +1,8 @@
-from django.contrib.auth.models import User
+from django.contrib.auth import get_user_model
 from rest_framework import serializers
 from TODO.models import DefaultTask, Task, TaskList
+
+User = get_user_model()
 
 class UserRegistrationSerializer(serializers.ModelSerializer):
     password = serializers.CharField(write_only=True, required=True, style={'input_type': 'password'})
@@ -13,26 +15,16 @@ class UserRegistrationSerializer(serializers.ModelSerializer):
 
     def validate(self, attrs):
         if attrs['password'] != attrs['confirmpassword']:
-            raise serializers.ValidationError({"password": "Password fields didn't match."})
-
-        # Checking username is existing or not
-        if User.objects.filter(username=attrs['username']).exists():
-            raise serializers.ValidationError({"username": "This username is already existing."})
-
-        # Checking email is existing or not
-        if User.objects.filter(email=attrs['email']).exists():
-            raise serializers.ValidationError({"email": "This Email is already existing."})
-
+            raise serializers.ValidationError({"password": "Passwords do not match."})
         return attrs
 
     def create(self, validated_data):
-        validated_data.pop('confirmpassword')
-        
-        user = User.objects.create(
+        validated_data.pop('confirmpassword')  # Remove confirmpassword before creating the user
+        user = User(
             username=validated_data['username'],
-            email=validated_data['email'],
+            email=validated_data['email']
         )
-        user.set_password(validated_data['password'])
+        user.set_password(validated_data['password'])  # Use set_password to hash the password
         user.save()
         return user
 

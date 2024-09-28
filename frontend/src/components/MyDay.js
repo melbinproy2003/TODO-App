@@ -135,22 +135,22 @@ function MyDay() {
 
     const currentDate = new Date();
 
-    // Filter tasks
-    const filteredTasks = tasks.filter(task => 
+    // Filter tasks safely
+    const filteredTasks = Array.isArray(tasks) ? tasks.filter(task => 
         !task.complete && 
         task.description.toLowerCase().includes(searchQuery.toLowerCase()) && 
         new Date(task.due_date) >= currentDate // Only future tasks, excluding overdue
-    );
+    ) : [];
     
-    const completedTasks = tasks.filter(task => 
+    const completedTasks = Array.isArray(tasks) ? tasks.filter(task => 
         task.complete && 
         task.description.toLowerCase().includes(searchQuery.toLowerCase())
-    );
+    ) : [];
 
-    const overdueTasks = tasks.filter(task => 
+    const overdueTasks = Array.isArray(tasks) ? tasks.filter(task => 
         !task.complete && 
         new Date(task.due_date) < currentDate // Only overdue tasks
-    );
+    ) : [];
 
     // Sort tasks to show pinned tasks first, then by due date
     const sortedTasks = filteredTasks.sort((a, b) => {
@@ -252,10 +252,8 @@ function MyDay() {
                                             &#9900;
                                         </span>
                                         <div className="task-content">
-                                            <p className="task-title" onClick={() => openTaskDetails(task)}><s>{task.description}</s></p>
-                                            <p className="task-meta">
-                                                {task.due_date ? new Date(task.due_date).toLocaleDateString() : 'No due date'}
-                                            </p>
+                                            <p className="task-title" onClick={() => openTaskDetails(task)}>{task.description}</p>
+                                            <p className="task-meta">{new Date(task.due_date).toLocaleDateString()}</p>
                                         </div>
                                     </div>
                                 ))}
@@ -268,7 +266,7 @@ function MyDay() {
                 {overdueTasks.length > 0 && (
                     <div className="overdue-section">
                         <div className="overdue-header" onClick={() => setOverdueVisible(!overdueVisible)}>
-                            <p>Pending {overdueVisible ? '▴' : '▾'}</p>
+                            <p>Overdue {overdueVisible ? '▴' : '▾'}</p>
                             <span>({overdueTasks.length})</span>
                         </div>
 
@@ -290,38 +288,59 @@ function MyDay() {
                     </div>
                 )}
 
-                {/* Modal for Task Details */}
+                {/* Modal for task details */}
                 {selectedTask && (
-                    <div className="modal">
-                        <div className="modal-content">
-                            <span className="close" onClick={closeModal}>&times;</span>
-                            {isEditing ? (
-                                <>
-                                    <h2>Edit Task</h2>
-                                    <input
-                                        type="text"
-                                        value={selectedTask.description}
-                                        onChange={(e) => setSelectedTask({ ...selectedTask, description: e.target.value })}
-                                        className="task-edit-input"
-                                    />
-                                    <input
-                                        type="date"
-                                        value={selectedTask.due_date.split('T')[0]}
-                                        onChange={(e) => setSelectedTask({ ...selectedTask, due_date: e.target.value })}
-                                        min={new Date().toISOString().split("T")[0]}
-                                        className="task-edit-input"
-                                    />
-                                    <button className='add-task-button' onClick={handleEditTask}>Save</button>
-                                </>
-                            ) : (
-                                <>
-                                    <h2>{selectedTask.description}</h2>
-                                    <p><strong>Due Date:</strong> {new Date(selectedTask.due_date).toLocaleDateString()}</p>
-                                    <p><strong>Complete:</strong> {selectedTask.complete ? 'Yes' : 'No'}</p>
-                                    <button onClick={() => setIsEditing(true)} className='add-task-button'>Edit</button>
-                                    <button onClick={handleDeleteTask} className='add-task-button' style={{ backgroundColor: 'red', color: 'white' }}>Delete</button>
-                                </>
-                            )}
+                    <div className="modal-overlay">
+                        <div className="modal">
+                            <div className="modal-header">
+                                <h3>{isEditing ? 'Edit Task' : 'Task Details'}</h3>
+                                <button className="close-modal" onClick={closeModal}>×</button>
+                            </div>
+                            <div className="modal-content">
+                                {isEditing ? (
+                                    <>
+                                        <input
+                                            type="text"
+                                            value={selectedTask.description}
+                                            onChange={(e) => setSelectedTask({ ...selectedTask, description: e.target.value })}
+                                            className="modal-input"
+                                        />
+                                        <input
+                                            type="date"
+                                            value={selectedTask.due_date}
+                                            onChange={(e) => setSelectedTask({ ...selectedTask, due_date: e.target.value })}
+                                            className="modal-input"
+                                        />
+                                        <div className="pin-section">
+                                            <input
+                                                type="checkbox"
+                                                checked={selectedTask.pin}
+                                                onChange={(e) => setSelectedTask({ ...selectedTask, pin: e.target.checked })}
+                                            />
+                                            <span>Pin task</span>
+                                        </div>
+                                    </>
+                                ) : (
+                                    <>
+                                        <p><strong>Description:</strong> {selectedTask.description}</p>
+                                        <p><strong>Due Date:</strong> {new Date(selectedTask.due_date).toLocaleDateString()}</p>
+                                        <p><strong>Pin:</strong> {selectedTask.pin ? 'Yes' : 'No'}</p>
+                                    </>
+                                )}
+                            </div>
+                            <div className="modal-footer">
+                                {isEditing ? (
+                                    <>
+                                        <button onClick={handleEditTask} className="modal-save">Save</button>
+                                        <button onClick={() => setIsEditing(false)} className="modal-cancel">Cancel</button>
+                                    </>
+                                ) : (
+                                    <>
+                                        <button onClick={() => setIsEditing(true)} className="modal-edit">Edit</button>
+                                        <button onClick={handleDeleteTask} className="modal-delete">Delete</button>
+                                    </>
+                                )}
+                            </div>
                         </div>
                     </div>
                 )}

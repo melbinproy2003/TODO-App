@@ -262,17 +262,6 @@ function Project() {
 
         const remainingDays = Math.floor(dateDifference / (1000 * 60 * 60 * 24));
 
-        if (remainingDays === 0) {
-            const remainingHours = Math.floor(dateDifference / (1000 * 60 * 60));
-            const remainingMinutes = Math.floor((dateDifference % (1000 * 60 * 60)) / (1000 * 60));
-
-            if (remainingHours <= 0 && remainingMinutes <= 0) {
-                return 'Overdue';
-            }
-
-            return `${remainingHours} hour(s) ${remainingMinutes} minute(s) left`;
-        }
-
         if (remainingDays < 0) {
             return 'Overdue';
         } else if (remainingDays === 1) {
@@ -324,7 +313,7 @@ function Project() {
                         </div>
                         {showCalendar && (
                             <input
-                                type="datetime-local"
+                                type="date"
                                 value={newTaskDueDate}
                                 onChange={(e) => setNewTaskDueDate(e.target.value)}
                                 min={new Date().toISOString().split("T")[0]}
@@ -417,7 +406,7 @@ function Project() {
                                     onChange={(e) => setSelectedTask({ ...selectedTask, description: e.target.value })}
                                 />
                                 <input
-                                    type="datetime-local"
+                                    type="date"
                                     value={selectedTask.due_date}
                                     onChange={(e) => setSelectedTask({ ...selectedTask, due_date: e.target.value })}
                                 />
