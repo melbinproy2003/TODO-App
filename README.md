@@ -20,6 +20,9 @@ This TODO application enables users to manage tasks efficiently with features li
      ```bash
      cd Backend
      pip install -r requirements.txt
+     cd Project
+     python manage.py makemigrations
+     python manage.py migrate
      ```
    - For the frontend (JavaScript):
      ```bash
@@ -33,8 +36,6 @@ This TODO application enables users to manage tasks efficiently with features li
    ```bash
    cd Backend
    cd Project
-   python manage.py makemigrations
-   python manage.py migrate
    python manage.py runserver
    ```
 
@@ -49,13 +50,8 @@ This TODO application enables users to manage tasks efficiently with features li
 - To run tests for the backend:
   ```bash
   cd Backend
-  python -m unittest discover
-  ```
-
-- For frontend tests (if applicable):
-  ```bash
-  cd frontend
-  npm test
+  cd Project
+  py manage.py test TODO
   ```
 
 For more details, visit the project repository [here](https://github.com/melbinproy2003/TODO-App).
