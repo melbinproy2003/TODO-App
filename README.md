@@ -1,7 +1,7 @@
 
 # TODO Application
 
-This TODO application enables users to manage tasks efficiently with features like adding, updating, and deleting tasks.
+This TODO application enables users to manage tasks efficiently with features like adding, updating, and deleting tasks. In this application, we can download our task summary in Markdown format. Here is an example: [Task Summary Example](https://gist.github.com/melbinproy2003/861a1730ed92be3acc23c3815bdaa958).
 
 ## Setup
 
